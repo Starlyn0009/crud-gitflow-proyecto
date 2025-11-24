@@ -1,7 +1,4 @@
 
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: #eef2f7; 
     color: #333;
     padding: 20px;
     margin: 0;
@@ -9,9 +6,6 @@ body {
 }
 
 
-.header-crud {
-    text-align: center;
-    color: #1a73e8;
     margin-bottom: 30px;
     font-weight: 600;
 }
@@ -21,28 +15,16 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
-    gap: 30px;
-    flex-wrap: wrap;
-}
-
 
 .card {
     background: white;
     padding: 25px;
     border-radius: 12px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); 
-}
 
-.form-card {
-    flex: 1; 
     min-width: 300px;
 }
 
 .table-card {
-    flex: 2; 
-    min-width: 500px;
-}
-
 
 .card h2 {
     margin-top: 0;
@@ -69,19 +51,17 @@ form input[type="email"] {
     padding: 10px 12px;
     border: 1px solid #ccc;
     border-radius: 6px;
-    box-sizing: border-box; 
+
     transition: border-color 0.3s;
 }
 
 form input:focus {
-    border-color: #1a73e8; 
+
     outline: none;
     box-shadow: 0 0 0 2px rgba(26, 115, 232, 0.2);
 }
 
 
-#saveBtn {
-    background: #1a73e8; 
     color: white;
     border: none;
     padding: 12px 20px;
@@ -103,13 +83,11 @@ form input:focus {
 }
 
 
-.table-responsive {
-    overflow-x: auto; 
 }
 
 table {
     width: 100%;
-    border-collapse: separate; 
+
     border-spacing: 0;
     font-size: 15px;
 }
@@ -151,19 +129,12 @@ tr:hover {
 }
 
 .edit {
-    background: #28a745; 
+
     color: white;
 }
 
 .delete {
-    background: #dc3545; 
-    color: white;
-}
 
-
-@media (max-width: 800px) {
-    .container {
-        flex-direction: column; 
     }
     .form-card, .table-card {
         min-width: unset;
