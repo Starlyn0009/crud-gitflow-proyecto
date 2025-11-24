@@ -1,49 +1,31 @@
-/* Base */
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: #eef2f7; /* Un fondo gris claro y sutil */
+
     color: #333;
     padding: 20px;
     margin: 0;
     line-height: 1.6;
 }
 
-/* Encabezado */
-.header-crud {
-    text-align: center;
-    color: #1a73e8; /* Azul primario */
+
     margin-bottom: 30px;
     font-weight: 600;
 }
 
-/* Contenedor principal */
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
-    gap: 30px; /* Espacio entre el formulario y la tabla */
-    flex-wrap: wrap; /* Para que se apilen en móviles */
-}
 
-/* Tarjetas (Formulario y Tabla) */
 .card {
     background: white;
     padding: 25px;
     border-radius: 12px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Sombra más suave */
-}
 
-.form-card {
-    flex: 1; /* Ocupa el espacio restante */
     min-width: 300px;
 }
 
 .table-card {
-    flex: 2; /* Ocupa el doble de espacio que el formulario */
-    min-width: 500px;
-}
 
-/* Encabezados de tarjetas */
 .card h2 {
     margin-top: 0;
     color: #4a4a4a;
@@ -52,7 +34,7 @@ body {
     margin-bottom: 20px;
 }
 
-/* Formulario */
+
 .form-group {
     margin-bottom: 15px;
 }
@@ -69,19 +51,17 @@ form input[type="email"] {
     padding: 10px 12px;
     border: 1px solid #ccc;
     border-radius: 6px;
-    box-sizing: border-box; /* Asegura que el padding no desborde el ancho */
+
     transition: border-color 0.3s;
 }
 
 form input:focus {
-    border-color: #1a73e8; /* Resaltar al enfocar */
+
     outline: none;
     box-shadow: 0 0 0 2px rgba(26, 115, 232, 0.2);
 }
 
-/* Botón principal */
-#saveBtn {
-    background: #1a73e8; /* Azul de Google */
+
     color: white;
     border: none;
     padding: 12px 20px;
@@ -102,14 +82,12 @@ form input:focus {
     transform: translateY(1px);
 }
 
-/* Tabla */
-.table-responsive {
-    overflow-x: auto; /* Para tablas en pantallas pequeñas */
+
 }
 
 table {
     width: 100%;
-    border-collapse: separate; /* Cambiado a separate para bordes redondeados */
+
     border-spacing: 0;
     font-size: 15px;
 }
@@ -135,7 +113,7 @@ tr:hover {
     background-color: #f9f9f9;
 }
 
-/* Botones de acción dentro de la tabla */
+
 .action-btn {
     padding: 8px 15px;
     border: none;
@@ -151,19 +129,12 @@ tr:hover {
 }
 
 .edit {
-    background: #28a745; /* Verde para editar */
+
     color: white;
 }
 
 .delete {
-    background: #dc3545; /* Rojo para eliminar */
-    color: white;
-}
 
-/* Responsive para pantallas pequeñas */
-@media (max-width: 800px) {
-    .container {
-        flex-direction: column; /* Apila el formulario y la tabla */
     }
     .form-card, .table-card {
         min-width: unset;
